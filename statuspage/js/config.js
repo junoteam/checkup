@@ -4,7 +4,7 @@ checkup.config = {
     "timeframe": 1 * time.Day,
 
     // How often, in seconds, to pull new checks and update the page.
-    "refresh_interval": 60,
+    "refresh_interval": 10,
 
     // Configure read-only access to stored checks. Currently, S3 is
     // supported. These credentials will be visible to everyone, so
